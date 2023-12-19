@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.arka{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: -5;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.arka img{
+    width: 103%;
+}
+
+.grid-container{
+    position: absolute;
+}
+
+.sütun{
+    display: flex;
+    justify-content: center;
+   border: 0;
+}
+
+.text{
+    display: flex;
+   justify-content: center;
+    color: black;
+    padding-top: 5vh;
+    font-size: large;
+}
